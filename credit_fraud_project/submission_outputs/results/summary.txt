@@ -1,0 +1,8 @@
+Credit Card Fraud Detection Project Summary
+==================================================
+Dataset shape: (100000, 16)
+Class distribution: {0: 90090, 1: 9910}
+
+Model Results:
+                         confusion_matrix  f1_score   pr_auc precision    recall   roc_auc threshold
+RandomForest  [[17763, 255], [365, 1617]]  0.839128  0.89342  0.863782  0.815843  0.948057  0.700773
